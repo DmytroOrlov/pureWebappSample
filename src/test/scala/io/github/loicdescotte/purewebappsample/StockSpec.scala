@@ -3,7 +3,7 @@ package io.github.loicdescotte.purewebappsample
 import io.github.loicdescotte.purewebappsample.dao.StockDAO
 import io.github.loicdescotte.purewebappsample.model.{Stock, StockDBAccessError, StockError, StockNotFound}
 import org.http4s._
-import org.http4s.syntax.kleisli._
+import org.http4s.implicits._
 import org.specs2.mutable.Specification
 import zio.clock.Clock
 import zio.internal.PlatformLive
